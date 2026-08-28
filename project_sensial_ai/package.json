@@ -1,0 +1,12 @@
+{
+  "name": "nexora-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Project intelligence and risk prediction dashboard",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" }
+}

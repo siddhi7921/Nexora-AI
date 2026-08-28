@@ -1,0 +1,102 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "name": "Nova Commerce",
+      "owner": "Siddhinath",
+      "dueDate": "2026-09-18",
+      "progress": 62,
+      "budget": "$48,000",
+      "status": "At risk"
+    },
+    {
+      "id": "p2",
+      "name": "Atlas Mobile",
+      "owner": "Ravi Kumar",
+      "dueDate": "2026-10-06",
+      "progress": 78,
+      "budget": "$31,500",
+      "status": "On track"
+    },
+    {
+      "id": "p3",
+      "name": "Core Platform",
+      "owner": "Ava Wilson",
+      "dueDate": "2026-09-09",
+      "progress": 41,
+      "budget": "$64,000",
+      "status": "At risk"
+    },
+    {
+      "id": "f88b11e1-267c-406f-b2ab-021d52812fe3",
+      "name": "syam",
+      "owner": "siddhi",
+      "dueDate": "2026-08-29",
+      "progress": 0,
+      "budget": "5200",
+      "status": "On track"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "projectId": "p1",
+      "title": "Authentication API",
+      "assignee": "Rahul S.",
+      "dueDate": "2026-08-29",
+      "status": "Done",
+      "priority": "High",
+      "dependency": "Security review"
+    },
+    {
+      "id": "t2",
+      "projectId": "p1",
+      "title": "Checkout integration",
+      "assignee": "Priya N.",
+      "dueDate": "2026-09-02",
+      "status": "Done",
+      "priority": "High",
+      "dependency": "Authentication API"
+    },
+    {
+      "id": "t3",
+      "projectId": "p1",
+      "title": "Analytics events",
+      "assignee": "Leo M.",
+      "dueDate": "2026-09-06",
+      "status": "Done",
+      "priority": "Medium",
+      "dependency": ""
+    },
+    {
+      "id": "t4",
+      "projectId": "p2",
+      "title": "Offline sync",
+      "assignee": "Rahul S.",
+      "dueDate": "2026-09-13",
+      "status": "Done",
+      "priority": "Medium",
+      "dependency": ""
+    },
+    {
+      "id": "t5",
+      "projectId": "p3",
+      "title": "Database migration",
+      "assignee": "Ava W.",
+      "dueDate": "2026-08-26",
+      "status": "Done",
+      "priority": "High",
+      "dependency": "Schema approval"
+    },
+    {
+      "id": "t6",
+      "projectId": "p3",
+      "title": "Load test",
+      "assignee": "Leo M.",
+      "dueDate": "2026-09-01",
+      "status": "Done",
+      "priority": "High",
+      "dependency": "Database migration"
+    }
+  ]
+}
