@@ -34,6 +34,7 @@ The platform analyzes project and task data to answer important questions:
 Start the application:
 
 ```bash
+cd project_sensial_ai
 npm start
 ```
 
@@ -44,6 +45,17 @@ http://localhost:3000
 ```
 
 > No third-party packages or API keys are required.
+
+## Deploy on Netlify
+
+The root `netlify.toml` publishes `project_sensial_ai/public`, which contains the
+homepage, stylesheet, and browser script. No build command is required for these
+static files. Keep this configuration when deploying so the site serves the
+dashboard instead of a page-not-found error.
+
+This deploy serves the frontend only. The Node.js server is not deployed by this
+configuration; the dashboard uses its existing browser-local fallback when the
+API is unavailable. Shared backend storage is not included in this deployment.
 
 ---
 
