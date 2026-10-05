@@ -1,0 +1,4 @@
+[build]
+  base = "."
+  command = ""
+  publish = "project_sensial_ai/public"
